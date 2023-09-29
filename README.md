@@ -3,14 +3,14 @@ Hearing Test Data Analysis and Classification
 This repository contains code for analyzing hearing test data and performing a classification task using machine learning. The dataset used in this analysis is "hearing_test.csv."
 
 # Contents
-1.Introduction
-2.Requirements
-3.Usage
-4.Data Cleaning
-5.Feature Engineering
-6.Exploratory Data Analysis (EDA)
-7.Machine Learning Classification
-8.Results and Evaluation
+1.Introduction <br>
+2.Requirements <br>
+3.Usage <br>
+4.Data Cleaning <br>
+5.Feature Engineering <br>
+6.Exploratory Data Analysis (EDA) <br>
+7.Machine Learning Classification <br>
+8.Results and Evaluation <br>
 
 # Introduction
 The goal of this project is to analyze hearing test data and build a classification model to predict test results based on various features, such as age, physical score, and more. This README provides an overview of the code and its usage.
