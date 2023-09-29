@@ -32,11 +32,11 @@ matplotlib (for creating plots)
 
  Review the Results: The code performs the following steps:
 
-Data cleaning: Missing values are imputed with the mean.
-Feature engineering: Polynomial features are generated to capture non-linear relationships.
-Exploratory Data Analysis (EDA): Data visualizations and analysis are conducted.
-Machine Learning Classification: A Logistic Regression model is trained and evaluated for test result prediction.
-Results and Evaluation: Accuracy, confusion matrix, and classification report are displayed.
+Data cleaning: Missing values are imputed with the mean. <br>
+Feature engineering: Polynomial features are generated to capture non-linear relationships. <br>
+Exploratory Data Analysis (EDA): Data visualizations and analysis are conducted. <br>
+Machine Learning Classification: A Logistic Regression model is trained and evaluated for test result prediction. <br>
+Results and Evaluation: Accuracy, confusion matrix, and classification report are displayed. <br>
 
 # Data Cleaning
 The dataset is loaded and missing values are imputed using the mean value of each column.
@@ -45,9 +45,9 @@ The dataset is loaded and missing values are imputed using the mean value of eac
 Polynomial features up to the third degree are generated to capture non-linear relationships in the data.
 
 # Exploratory Data Analysis (EDA)
-Count plot: Shows the distribution of test results.
-Box plots: Establish relationships between test results and age and physical scores.
-Scatter plot: Visualizes the relationship between age and physical score, with test result categories indicated by color.
+Count plot: Shows the distribution of test results.<br>
+Box plots: Establish relationships between test results and age and physical scores.<br>
+Scatter plot: Visualizes the relationship between age and physical score, with test result categories indicated by color.<br>
 
 # Machine Learning Classification
 A Logistic Regression model is trained and evaluated for predicting test results. Data is split into training and testing sets, and features are scaled.
