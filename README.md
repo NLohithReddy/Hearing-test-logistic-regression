@@ -1,1 +1,53 @@
 # Hearing-test-logistic-regression
+Hearing Test Data Analysis and Classification
+This repository contains code for analyzing hearing test data and performing a classification task using machine learning. The dataset used in this analysis is "hearing_test.csv."
+
+# Contents
+# Introduction
+# Requirements
+# Usage
+# Data Cleaning
+# Feature Engineering
+# Exploratory Data Analysis (EDA)
+# Machine Learning Classification
+# Results and Evaluation
+ Introduction
+The goal of this project is to analyze hearing test data and build a classification model to predict test results based on various features, such as age, physical score, and more. This README provides an overview of the code and its usage.
+
+Requirements
+Before running the code, ensure you have the following dependencies installed:
+
+Python (>= 3.7)
+scikit-learn (for machine learning)
+pandas (for data manipulation)
+numpy (for numerical operations)
+seaborn (for data visualization)
+matplotlib (for creating plots)
+
+# Data Preparation: Make sure you have the dataset, "hearing_test.csv," available. You can replace this file with your own data if needed.
+
+# Run the Code: Execute the provided Python script in your favorite Python environment (e.g., Jupyter Notebook or a code editor).
+
+# Review the Results: The code performs the following steps:
+
+Data cleaning: Missing values are imputed with the mean.
+Feature engineering: Polynomial features are generated to capture non-linear relationships.
+Exploratory Data Analysis (EDA): Data visualizations and analysis are conducted.
+Machine Learning Classification: A Logistic Regression model is trained and evaluated for test result prediction.
+Results and Evaluation: Accuracy, confusion matrix, and classification report are displayed.
+
+# Data Cleaning
+The dataset is loaded and missing values are imputed using the mean value of each column.
+
+# Feature Engineering
+Polynomial features up to the third degree are generated to capture non-linear relationships in the data.
+
+# Exploratory Data Analysis (EDA)
+Count plot: Shows the distribution of test results.
+Box plots: Establish relationships between test results and age and physical scores.
+Scatter plot: Visualizes the relationship between age and physical score, with test result categories indicated by color.
+Machine Learning Classification
+A Logistic Regression model is trained and evaluated for predicting test results. Data is split into training and testing sets, and features are scaled.
+
+# Results and Evaluation
+The model's performance is evaluated using accuracy, a confusion matrix, and a classification report. Visualizations are also provided to aid in result interpretation.
