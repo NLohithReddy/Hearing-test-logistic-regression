@@ -32,11 +32,11 @@ matplotlib (for creating plots)
 
  Review the Results: The code performs the following steps:
 
-Data cleaning: Missing values are imputed with the mean. <br>
-Feature engineering: Polynomial features are generated to capture non-linear relationships. <br>
-Exploratory Data Analysis (EDA): Data visualizations and analysis are conducted. <br>
-Machine Learning Classification: A Logistic Regression model is trained and evaluated for test result prediction. <br>
-Results and Evaluation: Accuracy, confusion matrix, and classification report are displayed. <br>
+1.Data cleaning: Missing values are imputed with the mean. <br>
+2.Feature engineering: Polynomial features are generated to capture non-linear relationships. <br>
+3.Exploratory Data Analysis (EDA): Data visualizations and analysis are conducted. <br>
+4.Machine Learning Classification: A Logistic Regression model is trained and evaluated for test result prediction. <br>
+5.Results and Evaluation: Accuracy, confusion matrix, and classification report are displayed. <br>
 
 # Data Cleaning
 The dataset is loaded and missing values are imputed using the mean value of each column.
